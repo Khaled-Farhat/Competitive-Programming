@@ -8,15 +8,20 @@
 #include <iostream>
 using namespace std;
 
+
+    int n;
+
+
 int main()
 {
-    int n;
     cin >> n;
-
+    
+    
     unsigned long long sum=n*(1+n)/2;
 
     if (sum%2==0)       cout << 0;
     else                cout << 1;
 
+    
     return 0;
 }
