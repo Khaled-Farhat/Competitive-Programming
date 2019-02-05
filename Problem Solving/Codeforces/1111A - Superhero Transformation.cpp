@@ -8,7 +8,9 @@
 #include <iostream>
 using namespace std;
 
-string s, t;
+
+    string s, t;
+
 
 bool isVowel(char a)
 {
@@ -20,6 +22,7 @@ bool isVowel(char a)
 
     return 0;
 }
+
 
 int main()
 {
@@ -48,5 +51,6 @@ int main()
 
     cout << "YES";
 
+    
     return 0;
 }
