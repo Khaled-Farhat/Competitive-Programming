@@ -8,10 +8,12 @@
 #include <iostream>
 using namespace std;
 
-string s, t, v="aeiou";
+string s, t;
 
 bool isVowel(char a)
 {
+    string v="aeiou";
+    
     for (int i=0; i<5; i++)
         if (a==v[i])
             return 1;
@@ -36,7 +38,8 @@ int main()
         if (  isVowel( s[i] )  )        cnt++;
         if (  isVowel( t[i] )  )        cnt++;
 
-        if (cnt%2!=0){
+        if (cnt%2!=0)
+        {
             cout << "NO";
             return 0;
         }
