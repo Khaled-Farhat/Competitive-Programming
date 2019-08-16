@@ -4,8 +4,8 @@
 //
 // main idea:
 //     1. run dijkstra to find the distance between node (s) and any node
-//     2. run dijkstra to find the distance between and node and node (d)
-//     3. using bruteforce, try to take each edge from the proposed list and choose the minimum cost
+//     2. run dijkstra to find the distance between any node and node (d)
+//     3. using bruteforce, try to take each edge of the proposed list and calculate the distance, take minimum
 
 #include <bits/stdc++.h>
 using namespace std;
