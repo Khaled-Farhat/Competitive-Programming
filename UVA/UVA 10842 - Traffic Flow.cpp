@@ -1,9 +1,11 @@
 // Problem: UVA 10842 - Traffic Flow
-// Tags: MST, Kruskal
+// Tags: Graphs, MST, Kruskal
 // Author: Khaled Farhat
 // Main idea:
-//      - We need to link all nodes in such that the minimum edge in maximum possible
-//      - To do this, we should find the Maximum Spanning Tree, and print the minimum edge in it
+//      - We need to link all nodes in such that the minimum edge in maximum possible, we should print this edge
+//      - To do that, we should find the Maximum Spanning Tree and then we can print the minimum edge in it
+// 
+// Kruskal algorithm: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
 
 #include <bits/stdc++.h>
 using namespace std;
