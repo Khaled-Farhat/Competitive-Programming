@@ -2,7 +2,7 @@
 // Tags: Graphs, MST, Kruskal
 // Author: Khaled Farhat
 // Solution idea:
-//      - Find the Minimum Spanning tree, the answer is the sum of all edges that is not included in the MST
+//      - Find the Minimum Spanning tree, the answer is the sum of all edges that are not included in the MST
 //      - So the answer is: (total edges sum - MST edges sum)
 // 
 // Kruskal algorithm: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
