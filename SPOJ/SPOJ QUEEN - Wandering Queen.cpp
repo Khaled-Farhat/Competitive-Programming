@@ -13,6 +13,7 @@ typedef pair<int, int>  pi;
 
 
 
+
 int n, m, dist[1009][1009],
     dr[]={-1, 0, 1, -1, 1, -1, 0, 1},
     dc[]={-1, -1, -1, 0, 0, 1, 1, 1};
@@ -87,6 +88,9 @@ void initialize()
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     while (t--)
