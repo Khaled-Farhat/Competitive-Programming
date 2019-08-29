@@ -1,16 +1,24 @@
 // Problem: Light OJ 1210 - Efficient Traffic System
-// Tags: Graphs, Strongly Connected Components
+// Tags: Graphs, Strongly Connected Component
 // Author: Khaled Farhat
+//
 // Solution idea:
 //      The task ask us to determine the minimum number of edges we should add, such that for each node there is path to each other node, so:
+//
 //      - Get all Strongly Connected Components. All nodes in each SCC can reach each other,
 //         so we will not add any edge between two nodes if they are in the same SCC,
 //         each edge we should add are between two nodes in different SCC.
-//      - Now, we can reduce the task to find the minimum number of edges we should add, so that for each SCC there is a path to each other SCC,
-//         it is obvious that we can do that by linking (all component with out degree equals 0) to (all components with in degree equals 0),
-//         so we count number of components with (out degree == 0) and number of components with (in degree == 0),
-//         and the answer is the maximum between these two numbers.
-//      - One special case is when there is one SCC, there is no need to add any edge since each node in this SCC have a path to each other node in this SCC.
+//
+//      - Now, we can reduce the task to find the minimum number of edges we should add so that for each SCC,
+//        there is a path to each other SCC.
+//        it is obvious that we can do that by linking:
+//        (all component with out degree equals 0) to (all components with in degree equals 0).
+//
+//      - So we count the number of components with (out degree == 0) and the number of components with (in degree == 0),
+//        and the answer is the maximum between these two numbers.
+//
+//      - One special case is when there is one SCC,
+//        then there is no need to add any edge since each node in this SCC have a path to each other node in this SCC.
 //
 // this solution uses Tarjan Algorithm to find SCC: https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
 
