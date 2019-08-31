@@ -153,16 +153,12 @@ int main() {
         memset(vis, 0, sizeof vis);
         dfsComp(comp[0]);
 
-        int mxOut=0;
         bool can=1;
-        for (int i=0; i<scc; i++) {
-            mxOut=max(mxOut, out[i]);
-
-            if (in[i]>1  ||  !vis[i])
+        for (int i=0; i<scc; i++)
+            if (in[i]>1  ||  out[i]>1  ||  !vis[i])
                 can=0;
-        }
 
-        if (!can  ||  mxOut>1)
+        if (!can)
             printf("Case %d: NO\n", id);
 
         else
