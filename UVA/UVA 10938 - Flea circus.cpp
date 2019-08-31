@@ -7,12 +7,12 @@
 //
 //      1. Get the Lowest Common Ancestor of x and y, the path between x and y must pass from LCA(x, y)
 //
-//      2. The path length is the distance from y to LCA(x, y) and from LCA(x, y) to x,
+//      2. The path length is the distance from y to LCA(x, y) + the distance from LCA(x, y) to x,
 //         so the path is (depth[x]-depth[LCA(x, y)])+(depth[y]-depth[LCA(x, y)])
 //         the depth of x is the distance between the root and x
-//         we can find the depth using DFS: depth[child]=depth[parent]+1
+//         we can find the depth of each node using DFS: depth[child]=depth[parent]+1
 //
-//      3. Each node should go half the path length, it is easy to do so using a Sparse Table Data Structure
+//      3. Each node should go half the path length, it is easy to do so using Sparse Table Data Structure
 //
 //      4. If the path length is odd, then it is obvious that the nodes will not meet
 // 
