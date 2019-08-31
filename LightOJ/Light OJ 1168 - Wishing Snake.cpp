@@ -16,7 +16,7 @@
 //            why is that true? if a SCC has in degree of more than 1 SCC, the snack will be visited by one of those parents,
 //            but then it can not visit any other edge that links other parents with this SCC, prove:
 //
-//            hypothesis: if (x and y are two SCC) and (x!=y) and (x can visit y), then (y can not visit x)
+//            hypothesis: if (x and y are two SCC) and (x != y) and (x can visit y), then (y can not visit x)
 //            prove: if (y can visit x) => ( (x can visit y) and (y can visit x) )
 //                   => (x and y are the same SCC and x=y),
 //                   This is a contradiction with hypothesis that (x!=y)
