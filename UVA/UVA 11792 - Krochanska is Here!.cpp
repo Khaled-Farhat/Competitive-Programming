@@ -7,7 +7,7 @@
 //      - we want to find the average of the minimum shortest paths and it equals ((sum of shortest paths) / (number of important nodes))
 //      - since the number of important nodes is same for all nodes, we can just minimize over the sum of shortest paths
 //
-// Time complexity: O(k * (V + E) * log(v)) where k is the number of important nodes
+// Time complexity: O(k * (V + E) * log(V)) where k is the number of important nodes
 //
 // Dijkstra algorithm: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
