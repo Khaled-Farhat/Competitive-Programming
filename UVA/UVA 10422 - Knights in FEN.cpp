@@ -4,13 +4,12 @@
 // Solution idea:
 //      - In each test case we are given a state and asked to find the shortest path of length <= 10 to a final state,
 //        let's call the final state F. Since the graph is undirected, the shortest path from any state S to F is the same
-//        of the shortest path from F to S, so we can run just one BFS from F and find the shortest paths to the other states
-//        before processing any test case, so we can answer each test case in O(1)/
-//      - We will use two bitmasks to represent each state, one of the contains just a set bit in the empty cell, and the other
-//        contains a set bit in position of black Knights.
+//        as the shortest path from F to S, so we can run just one BFS from F and find the shortest paths to the other states
+//        before processing any test case, so we can answer each test case in O(1)
+//      - We will use two bitmasks to represent each state, one of them contains just one set bit denotes to the position of the
+//        empty cell, and the other contains a set bit in position of black knights.
 //
 // Breadth First Search: https://en.wikipedia.org/wiki/Breadth-first_search
-
 
 #include <bits/stdc++.h>
 using namespace std;
