@@ -1,8 +1,7 @@
 // Problem: UVA 10611 - The Playboy Chimp
 // Tags: Binary Search
 // Author: Khaled Farhat
-// Solution idea:
-//      - Binary search over indexes
+// Solution idea: Binary search over indexes
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -39,12 +38,12 @@ int BSFindNext(int low, int high, int val) {
     while (low<=high) {
         int mid=low+(high-low)/2;
 
-        if (a[mid]>val) { // all previous element are greater than a[i]
+        if (a[mid]>val) { // all next element are greater than a[i]
             index=mid;      // so search in range [low, mid-1]
             high=mid-1;
         }
         else {
-            low=mid+1; // all next elements are smaller than a[i]
+            low=mid+1; // all previous elements are smaller than a[i]
                        // so search in range [mid+1, high]
         }
     }
