@@ -3,8 +3,8 @@
 // Author: Khaled Farhat
 // Solution idea:
 //      - if k factor is sufficient then all factors x > k are also sufficient, hence we can do a binary search over k
-//      - to check of k is sufficient, we will do a loop over the array and check that no jump is greater than k, and every
-//        time we need to jump k, we should subtract 1 from it.
+//      - to check that k is sufficient, we will do a loop over the array and check that no jump is greater than k, and every
+//        time we need to jump exactly k we will subtract 1 from it.
 
 #include <bits/stdc++.h>
 using namespace std;
