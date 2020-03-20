@@ -1,5 +1,5 @@
 // Problem: UVA 11990 - ``Dynamic'' Inversion
-// Tags: Data Structures, SQRT Decomposition
+// Tags: Data Structures, SQRT Decomposition, Binary Search
 // Author: Khaled Farhat
 // Solution idea:
 //      - When we remove an integer i from the array, we will decrease the answer by
