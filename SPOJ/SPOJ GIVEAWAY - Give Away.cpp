@@ -6,8 +6,8 @@
 //        in each bucket we will keep a vector with block's elements but in sorted order, now when we are given
 //        a range [a .. b], for every bucket that are completely in the range we will get the number of elements >= c
 //        using binary search over that bucket's elements, because all the vector elements are sorted, and for each bucket
-//        that are now completely in range [a.. b] (there will be at most two buckets), we will just iterate over their element
-//        because there are no more than sqrt(n) buckets and sqrt(n) elements in each bucket.
+//        that are not completely in range [a.. b] (there will be at most two buckets), we will just iterate over their elements
+//        because there are no more than sqrt(n) elements in each bucket.
 //
 //      - Time complexity: n + (m * sqrt(n) * log(sqrt(n)))
 //
