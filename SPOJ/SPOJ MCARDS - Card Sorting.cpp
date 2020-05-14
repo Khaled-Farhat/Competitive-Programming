@@ -12,13 +12,13 @@
 //        positions of the rest n-k cards, so maximizing k will bring us the optimal solution.
 //      - Observation: the maximum number of cards that we will not change their positions is the length of the longest
 //                     increasing subsequence.
-//      - We will go back to the original problem, observe that the number of card types is at most 4, so we will simply try all
+//      - We will go back to the original problem, observe that the number of cards types is at most 4, so we will simply try all
 //        permutations of sorting the groups.
 //        we can implement that by considering the card type as the first indicator that will tell us if a card is greater than other.
 //        Ex: if the permutation was (4 1 2 3), then we will consider that a card of type 2, is greater than a card of type 4,
-//        so the problem now is to find the longest increasing subsequence over pairs and it is a trivial task with a bit modification.
+//        so the problem now is to find the longest increasing subsequence over pairs and it is a trivial task with a bit of modification.
 //
-// Time Complexity: O( (2 ^ C) * n * log(n) )
+// Time Complexity: O( (2 ^ C) * n * log(n) ), where C is the number of types and n is the total number of cards.
 //
 // Longest Increasing Subsequence: https://cp-algorithms.com/sequences/longest_increasing_subsequence.html
 
