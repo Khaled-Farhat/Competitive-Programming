@@ -1,0 +1,39 @@
+Tutorials and codes for some problems on various online judges
+
+| ID | Online Judge | Problem code | Problem Name | Tags | Link to my code |
+| --- | --- | --- | --- | --- | :---: |
+| 1 | ICPC Live Archive | 2045 | Closest Common Ancestors | Graph, Lowest Commmon Ancestor, Sparse Table | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/ICPC%20Live%20Archive/ICPC%20Live%20Archive%20-%202045%20-%20Closest%20Common%20Ancestors.cpp">Link</a> |
+| 2 | LightOj | 1034 | Hit the Light Switches | Graphs, Topological sorting, Strongly Connected Components | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/Light%20OJ%201034%20-%20Hit%20the%20Light%20Switches.cpp">Link</a> |
+| 3 | LightOj | 1168 | Wishing Snake | Graphs, Strongly Connected Component | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/Light%20OJ%201168%20-%20Wishing%20Snake.cpp">Link</a> |
+| 4 | LightOj | 1210 | Efficient Traffic System | Graphs, Strongly Connected Component | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/Light%20OJ%201210%20-%20Efficient%20Traffic%20System.cpp">Link</a> |
+| 5 | LightOj | 1002 | HCountry Roads | Graphs, Minimum Spannig Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/LightOJ%201002%20-%20Country%20Roads.cpp">Link</a> |
+| 6 | LightOj | 1029 | Civil and Evil Engineer | Graphs, Minimum Spannig Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/LightOJ%201029%20-%20Civil%20and%20Evil%20Engineer.cpp">Link</a> |
+| 7 | LightOj | 1040 | Donation | Graphs, Minimum Spannig Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/LightOJ%201040%20-%20Donation.cpp">Link</a> |
+| 8 | LightOj | 1041 | Road Construction | Graphs, Minimum Spannig Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/LightOJ%201041%20-%20Road%20Construction.cpp">Link</a> |
+| 9 | LightOj | 1059 | Air Ports | Graphs, Minimum Spannig Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/LightOJ/LightOJ%201059%20-%20Air%20Ports.cpp">Link</a> |
+| 10 | SPOJ | MELE3 | MELE3 | Graphs - Shortest paths - Dijkstra | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20%20MELE3%20-%20MELE3.cpp">Link</a> |
+| 11 | SPOJ | CAPCITY | Capital City | Graphs, Strongly Connected Component | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20CAPCITY%20-%20Capital%20City.cpp">Link</a> |
+| 12 | SPOJ | GIVEAWAY  | Give Away | Data Structures, SQRT Decomposition, Binary Search | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20GIVEAWAY%20-%20Give%20Away.cpp">Link</a> |
+| 13 | SPOJ | MCARDS  | Card Sorting | Dynamic Programming, Longest Increasing subsequence| <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20MCARDS%20-%20Card%20Sorting.cpp">Link</a> |
+| 14 | SPOJ | QUEEN | Wandering Queen | Graphs, BFS | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20QUEEN%20-%20Wandering%20Queen.cpp">Link</a> |
+| 15 | SPOJ | ROHAAN | Defend The Rohan | Graphs, all pairs shortest paths, floyd | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20ROHAAN%20-%20Defend%20The%20Rohan.cpp">Link</a> |
+| 16 | SPOJ | TFRIENDS | True Friends | Graphs, Strongly Connected Component | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20TFRIENDS%20-%20True%20Friends.cpp">Link</a> |
+| 17 | SPOJ | TRAFFICN | Traffic Network | Graphs, shortest paths, dijkstra | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/SPOJ/SPOJ%20TRAFFICN%20-%20Traffic%20Network.cpp">Link</a> |
+| 18 | UVA | 10048 | Audiophobia | Graphs, Minimum Spanning Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010048%20-%20Audiophobia.cpp">Link</a> |
+| 19 | UVA | 10131 | Is Bigger Smarter? | Dynamic Programming - Longest Increasing subsequence | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010131%20-%20Is%20Bigger%20Smarter%3F.cpp">Link</a> |
+| 20 | UVA | 10422 | Knights in FEN | Graphs, Single Source Shortest Path, BFS | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010422%20-%20Knights%20in%20FEN.cpp">Link</a> |
+| 21 | UVA | 10611 | The Playboy Chimp | Binary Search | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010611%20-%20The%20Playboy%20Chimp.cpp">Link</a> |
+| 22 | UVA | 10842 | Traffic Flow | Graphs, Minimum Spanning Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010842%20-%20Traffic%20Flow.cpp">Link</a> |
+| 23 | UVA | 10938 | Flea circus | Graphs, Lowest Common Ancestor, Sparse Table | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2010938%20-%20Flea%20circus.cpp">Link</a> |
+| 24 | UVA | 11428 | Cubes | Binary Search | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011428%20-%20Cubes.cpp">Link</a> |
+| 25 | UVA | 11456 | Trainsorting | Dynamic Programming, Longest Increasing Subsequence, Longest Decreasing Subsequence | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011456%20-%20Trainsorting.cpp">Link</a> |
+| 26 | UVA | 11631 | Dark roads | Graphs, Minimum Spanngin Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011631%20-%20Dark%20roads.cpp">Link</a> |
+| 27 | UVA | 11693 | Speedy Escape | Graphs, Single Source Shortest Path, Dijkstra | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011693%20-%20Speedy%20Escape.cpp">Link</a> |
+| 28 | UVA | 11792 | Krochanska is Here! | Graphs, Single Source Shortest Path, BFS | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011792%20-%20Krochanska%20is%20Here!.cpp">Link</a> |
+| 29 | UVA | 11974 | Switch The Lights | Dynamic Programming, Bit mask | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011974%20-%20Switch%20The%20Lights.cpp">Link</a> |
+| 30 | UVA | 11990 | ``Dynamic'' Inversion | Data Structures, Square Root Decomposition, Binary Search | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2011990%20-%20%60%60Dynamic''%20Inversion.cpp">Link</a> |
+| 31 | UVA | 12032 | The Monkey and the Oiled Bamboo | Binary Search | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2012032%20-%20The%20Monkey%20and%20the%20Oiled%20Bamboo.cpp">Link</a> |
+| 32 | UVA | 12238 | Ants Colony | Graphs, Lowest Common Ancestor, Sparse Table | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%2012238%20Ants%20Colony.cpp">Link</a> |
+| 33 | UVA | 1747 | Heavy Cycle Edges | Graphs, Minimum Spanngin Tree, Kruskal | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%201747%20-%20Heavy%20Cycle%20Edges.cpp">Link</a> |
+| 34 | UVA | 459 | Graph Connectivity | Graphs, DFS | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%20459%09Graph%20Connectivity.cpp">Link</a> |
+| 35 | UVA | 928 | Eternal Truths | Graphs, BFS, Shortest Paths, Single Source Shortest Path | <a href="https://github.com/Khaled-Farhat/Competitive-Programming/blob/master/UVA/UVA%20928%20-%20Eternal%20Truths.cpp">Link</a> |
